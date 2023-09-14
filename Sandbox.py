@@ -1,4 +1,4 @@
-from Counterpoint import Note, build_counterpoint, create_midi, play_note, play_counterpoint
+from Mus11ic import Note, build_counterpoint, create_midi, play_note, play_counterpoint
 from pyo import *
 from time import sleep
 
