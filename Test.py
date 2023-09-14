@@ -1,5 +1,5 @@
 import unittest
-from Counterpoint import Note
+from Mus11ic import Note
 
 def piano():
     notes = {'C': 0, 'C#': 1, 'Db': 1, 'D': 2, 'D#': 3, 'Eb': 3, 'E': 4, 'F': 5, 'F#': 6, 
