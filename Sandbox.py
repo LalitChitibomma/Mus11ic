@@ -19,7 +19,7 @@ s = Server().boot()
 s.start()
 
 # Plays 6-2-5-1 Progression
-for i in [3, 6, 2, 5, 1]:
+for i in [6, 2, 5, 1]:
     osc_1 = play_note(scale_1[i].frequency, 3, 0.25)
     osc_2 = play_note(scale_2[i].frequency, 3, 0.25)
     osc_3 = play_note(scale_3[i].frequency, 3, 0.25)
